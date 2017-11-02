@@ -2,7 +2,7 @@
 
 class GenBank(object):
     def genbankParser(self):
-        file = "/Users/anju/Desktop/prog2/hw2_hla.gb.txt"
+        file = "/Users/Desktop/prog2/hw2_hla.gb.txt"
         my_file = open(file)
         data = my_file.readlines()
         #print (data)
@@ -29,8 +29,6 @@ obj = GenBank()
 file_output = obj.genbankParser()
 info_out = obj.Parsedinfo(file_output)
 
-print ("Name: Anju Lulla")
-print ("Email: alulla@uncc.edu")
 
 
 
